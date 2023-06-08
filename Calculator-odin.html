@@ -8,11 +8,31 @@
     <body>
         <div class="container">
             <div class="calculator">
-                <div class="screen"></div>
-                <div class="button-layout"></div>
+                <div class="screen-container">
+                    <div class="screen">
+                        <output name="calc-output" class="calc-output">0</output>
+                    </div>
+                </div>
+
+                <div class="button-layout-container">
+                    <div class="buttons">
+                        <div class="top-row">
+                            <button class="calc-button">AC</button>
+                        </div>
+
+                        <div class="mid-row">
+                            <button class="calc-button">1</button>
+                        </div>
+
+                        <div class="bottom-row">
+                            <button class="calc-button">.</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <script src="Calculator-Button-Design.js"></script>
         <script src="Calculator-odin.js"></script>
     </body>
 </html>
