@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    display: flex;
+    background-color: lightblue;
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.screen{
+    background-color: lightcoral;
+    height: 25%;
+}
+
+.button-layout{
+    background-color: lightgreen;
+    height: 75%;
+}
