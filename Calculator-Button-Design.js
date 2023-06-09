@@ -10,7 +10,7 @@ const topRow = () => {
             newButton.innerText ="C";
         }
         else if(i == 2){
-            newButton.innerText ="%";
+            newButton.innerText ="^";
         }
         else{
             newButton.innerText ="+";
